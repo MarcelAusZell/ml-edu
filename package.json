@@ -1,5 +1,5 @@
 {
-  "homepage": "https://scrollytelling-ml-medialab-e2608723069b047745ff21c2aab2b0bdc3f6.pages.rwth-aachen.de",
+  "homepage": "https://marcelauszell.github.io/ml-edu",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-transform-private-property-in-object": "^7.24.7"
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
+    "gh-pages": "^6.3.0"
   }
 }
