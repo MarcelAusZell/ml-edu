@@ -4,7 +4,6 @@ import * as tf from "@tensorflow/tfjs";
 import * as d3 from "d3";
 import "./mnist-digit-recongizer.scss";
 
-// Initialize the data with digits (0-9) and default values
 const initialData = Array.from({ length: 10 }, (_, i) => ({ group: i, value: 0 }));
 
 export default function HandwrittenDigitRecognizer() {
@@ -18,7 +17,7 @@ export default function HandwrittenDigitRecognizer() {
   useEffect(() => {
     async function loadModel() {
       try {
-        const model = await tf.loadLayersModel("/model/digit-recognition/model.json");
+        const model = await tf.loadLayersModel(process.env.PUBLIC_URL + "/model/digit-recognition/model.json");
         modelRef.current = model;
         setModelLoaded(true);
       } catch (error) {
@@ -41,43 +40,21 @@ export default function HandwrittenDigitRecognizer() {
 
   function plotHistogram() {
     const svg = d3.select(svgRef.current);
-    const xScale = d3
-      .scaleBand()
-      .domain(data.map((d) => d.group))
-      .range([10, 90]);
+    const xScale = d3.scaleBand().domain(data.map((d) => d.group)).range([10, 90]);
     const yScale = d3.scaleLinear().domain([0, 100]).range([30, 0]);
 
     svg.selectAll("rect").remove();
-
-    svg
-      .selectAll("rect")
-      .data(data)
-      .join("rect")
-      .attr("class", "bar")
-      .attr("x", (d) => xScale(d.group))
-      .attr("y", (d) => yScale(d.value))
-      .attr("width", xScale.bandwidth())
-      .attr("height", (d) => Math.max(30 - yScale(d.value) - 0.25, 0));
-
+    svg.selectAll("rect").data(data).join("rect").attr("class", "bar").attr("x", (d) => xScale(d.group)).attr("y", (d) => yScale(d.value)).attr("width", xScale.bandwidth()).attr("height", (d) => Math.max(30 - yScale(d.value) - 0.25, 0));
     svg.select(".x-axis").remove();
 
     const maxValue = Math.max(...data.map((d) => d.value));
-
-    svg
-      .append("g")
-      .attr("transform", `translate(0,30)`)
-      .call(d3.axisBottom(xScale).tickSize(0).tickPadding(1))
-      .attr("class", "x-axis")
-      .selectAll("text")
-      .attr("class", (d, i) =>
-        data[i].value === maxValue ? "max-value-digit-on-scale" : "non-max-value-digit-on-scale"
-      );
+    svg.append("g").attr("transform", "translate(0,30)").call(d3.axisBottom(xScale).tickSize(0).tickPadding(1)).attr("class", "x-axis").selectAll("text").attr("class", (d, i) => data[i].value === maxValue ? "max-value-digit-on-scale" : "non-max-value-digit-on-scale");
   }
 
   async function predict(grayscaleValues) {
-    const input = tf.tensor4d(grayscaleValues, [1, 28, 28, 1]).div(255.0); // TensorFlow tensor from the grayscale image data
+    const input = tf.tensor4d(grayscaleValues, [1, 28, 28, 1]).div(255.0);
     const prediction = modelRef.current.predict(input).dataSync();
-    input.dispose(); // Dispose of the tensor to free memory
+    input.dispose();
     return prediction;
   }
 
@@ -86,12 +63,8 @@ export default function HandwrittenDigitRecognizer() {
   }
 
   function displayPrediction(prediction) {
-    const updatedData = data.map((d, i) => ({
-      ...d,
-      value: getPercentagesFromPrediction(prediction)[i],
-    }));
+    const updatedData = data.map((d, i) => ({ ...d, value: getPercentagesFromPrediction(prediction)[i] }));
     setData((data) => updatedData);
-
     const maxIndex = prediction.indexOf(Math.max(...prediction));
     const maxIndexPrediction = prediction[maxIndex];
     setMaxDigit([maxIndex, Math.round(maxIndexPrediction * 100)]);
