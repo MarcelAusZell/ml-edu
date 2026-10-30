@@ -1,3 +1,5 @@
+import numeric from "numeric";
+
 import { useEffect, useRef } from "react";
 import * as d3 from "d3";
 import "./visual.scss";
