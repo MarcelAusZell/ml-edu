@@ -1,0 +1,32 @@
+.page-not-found {
+  font-size: 5rem;
+  font-weight: bold;
+  color: var(--st-first);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  animation: glitch 20s infinite;
+}
+
+@keyframes glitch {
+  0%,
+  100% {
+    text-shadow: 1px 1px 0 #f00, -1px -1px 0 #0f0;
+    transform: skew(0.5deg, 0.5deg);
+  }
+
+  20%,
+  60% {
+    text-shadow: 4px 4px 0 #0ff, -4px -4px 0 #f0f;
+    transform: skew(-0.5deg, -0.5deg);
+  }
+
+  40%,
+  80% {
+    text-shadow: 1px 1px 0 #f00, -1px -1px 0 #0f0;
+    transform: skew(0.5deg, 0.5deg);
+  }
+}

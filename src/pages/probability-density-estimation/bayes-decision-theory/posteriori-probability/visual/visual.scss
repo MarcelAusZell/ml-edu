@@ -1,0 +1,45 @@
+.media-4-path-a {
+  stroke: var(--st-first);
+  stroke-width: 7;
+  fill: none;
+}
+
+.media-4-path-b {
+  stroke: var(--marking-first);
+  stroke-width: 7;
+  fill: none;
+}
+
+.media-4-likelihood-a-label,
+.media-4-likelihood-prior-a-label,
+.media-4-posterior-a-label {
+  color: var(--st-first);
+}
+
+.media-4-likelihood-b-label,
+.media-4-likelihood-prior-b-label,
+.media-4-posterior-b-label {
+  color: var(--marking-first);
+}
+
+.media-4-threshold {
+  stroke: silver;
+  stroke-width: 3;
+  fill: none;
+}
+
+.media-4-arrow-left,
+.media-4-decide-for-a-label {
+  stroke: var(--st-first);
+  fill: var(--st-first);
+  stroke-width: 2;
+  color: var(--st-first);
+}
+
+.media-4-arrow-right,
+.media-4-decide-for-b-label {
+  stroke: var(--marking-first);
+  fill: var(--marking-first);
+  stroke-width: 2;
+  color: var(--marking-first);
+}

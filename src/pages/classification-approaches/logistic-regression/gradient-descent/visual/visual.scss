@@ -1,0 +1,27 @@
+.gradient-descent-polynomial-interactive-first-order-visual,
+.gradient-descent-polynomial-interactive-second-order-visual {
+  fill: none;
+  stroke: var(--ft-first);
+  stroke-width: 1;
+}
+
+.gradient-descent-point-first-order,
+.gradient-descent-point-second-order {
+  fill: var(--st-first);
+}
+
+.gradient-descent-arrow-visual {
+  stroke: var(--st-first);
+  stroke-width: 0.5;
+  stroke-dasharray: 1;
+  stroke-opacity: 0.5;
+}
+
+.gradient-descent-arrow-head-visual {
+  fill: var(--st-first);
+  fill-opacity: 0.75;
+}
+
+.learning-rate-demo-point-visual {
+  fill: var(--st-first);
+}

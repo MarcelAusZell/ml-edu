@@ -1,0 +1,33 @@
+.gradient-descent-polynomial-interactive {
+  fill: none;
+  stroke: var(--ft-first);
+  stroke-width: 1;
+}
+
+.learning-rate-demo-point {
+  fill: var(--st-first);
+}
+
+.gradient-descent-arrow {
+  stroke: var(--st-first);
+  stroke-width: 0.5;
+  stroke-dasharray: 2;
+  stroke-opacity: 0.25;
+}
+
+ .gradient-descent-arrow-head {
+  stroke: none;
+  fill: var(--st-first);
+  fill-opacity: 0.25;
+}
+
+
+.setting-container-gradient-descent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  span {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,36 @@
+.bayes-decision-theory-letter-background {
+  fill: var(--bg-second);
+}
+
+.bayes-decision-theory-letter {
+  fill: var(--ft-second);
+}
+
+.bayes-decision-theory-letter-histogram-bar {
+  fill: var(--st-first);
+}
+
+.bayes-decision-theory-likelihood-A-gaussian {
+  fill: none;
+  stroke: var(--st-first);
+  stroke-width: 7;
+}
+
+.bayes-decision-theory-likelihood-B-gaussian {
+  fill: none;
+  stroke: var(--marking-first);
+  stroke-width: 7;
+}
+
+.bayes-decision-theory-likelihood-A-label {
+  color: var(--st-first);
+}
+
+.bayes-decision-theory-likelihood-B-label {
+  color: var(--marking-first);
+}
+
+.coord-system-label {
+  fill: var(--ft-first);
+  fill-opacity: 0.4;
+}

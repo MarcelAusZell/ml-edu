@@ -1,0 +1,101 @@
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  background-color: black;
+}
+
+.drawing-canvas {
+  transition: all 0.3s ease;
+}
+
+
+.canvas-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  span {
+    opacity: 0.5;
+    font-weight: bold;
+  }
+
+  .draw-here-text {
+    color: var(--st-first);
+    opacity: 1;
+  }
+
+
+}
+
+.handwriting-recognizer-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  border: none;
+  box-shadow: 0 0 15px 5px var(--bg-first);
+  border-radius: 2rem;
+  padding: 0.25rem;
+}
+
+.button-group button {
+  background-color: transparent;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-weight: bold;
+  color: var(--ft-first);
+  transition: all 0.2s;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    color: var(--ft-third);
+  }
+
+  span {
+    opacity: 0.4;
+  }
+
+  &:hover {
+    background-color: var(--bg-first);
+    color: var(--st-second);
+  }
+}
+
+.button-group button[disabled]::after {
+  content: "Button disabled on small screens";
+  display: block;
+  font-size: 0.8rem;
+  color: var(--ft-disabled);
+  margin-top: 0.5rem;
+}
+
+.handwriting-clear-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease-in-out;
+    transform-origin: 20px 20px;
+  }
+
+  strong {
+    user-select: none;
+  }
+
+}

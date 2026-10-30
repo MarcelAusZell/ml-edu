@@ -1,0 +1,65 @@
+.knn-visual-data-circle {
+  fill: var(--st-first);
+}
+
+.knn-visual-hull-circle {
+  fill: var(--marking-first);
+  fill-opacity: 0.25;
+}
+
+.knn-visual-estimate-circle {
+  fill: var(--marking-first);
+}
+
+.knn-visual-circle-text-label {
+  fill: var(--marking-first);
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+
+.knn-visual-hull-line-center,
+.knn-visual-hull-line-center-animated,
+.knn-visual-center-point,
+.knn-visual-center-circle {
+  fill: var(--ft-first);
+}
+
+.knn-visual-data-point-in-hull {
+  fill: var(--sp-first);
+  fill-opacity: 0.8;
+  stroke: var(--ft-first);
+  stroke-width: 5;
+}
+
+.knn-visual-line-text-label {
+  fill: var(--sp-first);
+  font-weight: bold;
+  font-size: 25px;
+  text-anchor: middle;
+}
+
+.knn-visual-hull-line,
+.knn-visual-hull-line-animated {
+  stroke: var(--sp-first);
+  stroke-width: 8;
+}
+
+.knn-visual-knn-path {
+  fill: none;
+  stroke: var(--marking-first);
+  stroke-width: 8;
+}
+
+
+.visual-radius-arrow {
+  stroke: orange;
+  fill: orange;
+  stroke-width: 2;
+
+}
+
+.visual-radius-arrow-text {
+  fill: orange;
+  font-weight: bold;
+}

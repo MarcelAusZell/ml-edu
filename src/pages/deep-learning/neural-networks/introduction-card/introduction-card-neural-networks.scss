@@ -1,0 +1,25 @@
+
+
+.introduction-card-neural-networks-bias {
+  fill: gray;
+}
+
+.introduction-card-neural-networks-point {
+  fill: var(--st-first);
+}
+
+@keyframes blink {
+  0% { stroke-opacity: 0.7; }
+  50% { stroke-opacity: 0.3; }
+  100% { stroke-opacity: 0.7; }
+}
+
+.introduction-card-neural-networks-connection {
+  stroke: var(--ft-first);
+  stroke-opacity: 0.7;
+  stroke-width: 0.5;
+}
+
+.introduction-card-neural-networks-blinking {
+  animation: blink 10s infinite;
+}

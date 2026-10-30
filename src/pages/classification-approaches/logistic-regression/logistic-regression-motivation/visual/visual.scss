@@ -1,0 +1,32 @@
+.probability-path-class-1,
+.probability-path-class-1-last-animation {
+  stroke: orange;
+  stroke-width: 10;
+  fill: none;
+}
+
+.probability-path-class-2,
+.probability-path-class-2-last-animation {
+  stroke: steelblue;
+  stroke-width: 10;
+  fill: none;
+}
+
+.probability-text-label {
+  fill: var(--ft-first);
+  font-weight: bold;
+}
+
+.logistic-regression-decision-boundary-point {
+  fill: var(--ft-first);
+}
+
+.logistic-regression-decision-boundary-line {
+  stroke-width: 5;
+  stroke: var(--ft-first);
+  stroke-dasharray: 30, 20;
+}
+
+.logistic-regression-maximum-likelihood-label {
+  opacity: 0.5;
+}

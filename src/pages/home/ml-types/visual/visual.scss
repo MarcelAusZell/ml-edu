@@ -1,0 +1,9 @@
+.ml-notation-x-axis, .ml-notation-y-axis {
+  stroke-width: 5;
+  stroke: var(--ft-first);
+  opacity: 0.5;
+}
+
+.ml-notation-x-label, .ml-notation-x1-label, .ml-notation-x2-label {
+  opacity: 0.8;
+}

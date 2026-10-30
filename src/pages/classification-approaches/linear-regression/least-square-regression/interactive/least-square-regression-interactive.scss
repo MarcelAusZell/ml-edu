@@ -1,0 +1,31 @@
+.linear-regression-line {
+  stroke: var(--ft-first);
+  stroke-width: 7;
+}
+
+.linear-regression-point {
+  fill: var(--st-first);
+}
+
+.vertical-line-to-linear-regression-line {
+  stroke: var(--st-first);
+  stroke-width: 2;
+  stroke-dasharray: 5;
+}
+
+.original-regression-polynomial {
+  stroke: var(--marking-first);
+  stroke-opacity: 0.3;
+  stroke-width: 5;
+  fill: none;
+}
+
+.setting-container-least-square-regression {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  span {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,22 @@
+.vertical-line-to-linear-regression-line-visual {
+  stroke: var(--st-first);
+  stroke-width: 5;
+  stroke-dasharray: 10, 10;
+}
+
+.data-point-linear-regression-visual {
+  fill: var(--st-first);
+}
+
+.ground-truth-linear-regression-line {
+  stroke: var(--marking-first);
+  stroke-opacity: 0.3;
+  stroke-width: 10;
+  fill: none;
+}
+
+.linear-regression-line-visual {
+  stroke: var(--ft-first);
+  stroke-width: 10;
+}
+

@@ -1,0 +1,15 @@
+.linear-regression-line {
+  stroke: var(--ft-first);
+  stroke-width: 5;
+}
+
+.linear-regression-point {
+  fill: var(--st-first);
+}
+
+.vertical-line-to-linear-regression-line {
+  stroke: var(--st-first);
+  stroke-width: 2;
+  stroke-dasharray: 5;
+}
+

@@ -1,0 +1,52 @@
+.normal-vector-arrow,
+.normal-vector-label,
+.distance-line,
+.bias-label,
+.data-point-vector,
+.data-point-vector-label,
+.distance-to-decision-boundary-label {
+  stroke: var(--st-first);
+  fill: var(--st-first);
+  stroke-width: 2;
+}
+
+.decision-boundary {
+  stroke: var(--ft-first);
+  stroke-width: 4;
+}
+
+.parallel-line-to-decision-boundary {
+  stroke: var(--ft-first);
+  stroke-opacity: 0.25;
+  stroke-width: 4;
+}
+
+.decision-boundary-area-below {
+  fill: orange;
+  fill-opacity: 0.3;
+}
+
+.decision-boundary-area-above {
+  fill: steelblue;
+  fill-opacity: 0.3;
+}
+
+.axis-label {
+  fill: var(--ft-first);
+  fill-opacity: 0.3;
+  font-size: 1.2rem;
+}
+
+.data-point-vector-crinkled {
+  fill: none;
+  stroke: var(--ft-third);
+  stroke-width: 2;
+  stroke-dasharray: 5, 5;
+  stroke-opacity: 0.4;
+}
+
+.data-point-projection-label,
+.r-label,
+.data-point-equal-label {
+  fill-opacity: 0.4;
+}

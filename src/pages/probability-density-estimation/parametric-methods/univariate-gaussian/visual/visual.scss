@@ -1,0 +1,21 @@
+.media-3-distribution-path {
+  fill: none;
+  stroke: var(--st-first);
+  stroke-width: 7;
+}
+
+.media-3-stddev-line {
+  stroke-width: 5;
+  stroke: var(--sp-third);
+  stroke-dasharray: 8 4;
+}
+
+.media-3-mean-line {
+  stroke-width: 5;
+  stroke: var(--sp-first);
+  stroke-dasharray: 8 4;
+}
+
+.latex-label-univariate-gaussian {
+  opacity: 0.5;
+}

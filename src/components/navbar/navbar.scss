@@ -1,0 +1,152 @@
+.navbar {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  user-select: none;
+
+  a {
+    color: var(--ft-second);
+    transition: color 0.1s ease, filter 0.1s ease;
+
+    &:hover {
+      color: var(--st-first);
+      filter: drop-shadow(0 0 10px var(--st-first));
+    }
+
+    &.nav-link.active {
+      color: var(--st-first);
+    }
+  }
+
+  .navbar-brand {
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    width: 120px;
+    fill: var(--st-first);
+    transition: all 0.2s ease;
+
+    svg {
+      width: 120px;
+      fill: var(--st-first);
+      transition: all 0.2s ease;
+
+      &:hover {
+        transform: scale(1.05);
+        filter: drop-shadow(0 0 5px 3px var(--st-first));
+      }
+    }
+  }
+
+  .navbar-toggler {
+    border: none;
+    background: transparent;
+
+    &:focus,
+    &:active,
+    &-icon:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &:hover {
+      background: transparent;
+    }
+
+    .icon-bar {
+      display: block;
+      height: 2px;
+      background-color: var(--ft-third);
+      margin: 4px 0;
+      width: 22px;
+      transition: all 0.2s;
+    }
+
+    .top-bar {
+      transform: rotate(45deg);
+      transform-origin: 10% 10%;
+    }
+
+    .middle-bar {
+      opacity: 0;
+    }
+
+    .bottom-bar {
+      transform: rotate(-45deg);
+      transform-origin: 10% 90%;
+    }
+
+    &.collapsed {
+      .top-bar {
+        transform: rotate(0);
+      }
+
+      .middle-bar {
+        opacity: 1;
+      }
+
+      .bottom-bar {
+        transform: rotate(0);
+      }
+    }
+  }
+
+  .dropdown-menu.show {
+    background-color: var(--bg-first);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+}
+
+.sun,
+.moon {
+  color: var(--st-first);
+  transition: opacity 0.2s ease;
+  opacity: 0.5;
+  transition: filter 0.1s ease;
+}
+
+.darkmode-toggler {
+
+  &:focus,
+  &:active {
+    border: none;
+  }
+}
+
+li>.dropdown-menu {
+  border: none;
+
+}
+
+.dropdown-menu {
+  .dropdown-item {
+    color: var(--ft-first);
+
+    &:hover {
+      background-color: transparent;
+      color: var(--st-second);
+    }
+  }
+
+  .dropdown-item-active {
+    color: var(--st-first);
+    padding-left: 1rem;
+    text-decoration: none;
+  }
+}
+
+
+.darkmode-toggler-container {
+  width: 160px;
+  padding-left: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+

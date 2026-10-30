@@ -1,0 +1,74 @@
+
+.setting-changer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  svg {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  circle {
+    transition: transform 0.2s ease-in-out;
+    transform-origin: 20px 20px;
+  }
+  strong {
+    user-select: none;
+    text-align: center;
+  }
+  div {
+    padding: 0.75rem;
+
+  }
+}
+
+.poly-degree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  svg {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease-in-out; 
+    &:hover {
+      transform: scale(1.5); 
+      cursor: pointer;
+    }
+    .minus-button:hover {
+      stroke: red;
+    }
+    .plus-button:hover {
+      stroke: green;
+    }
+}
+  span {
+    min-width: 50px;
+    text-align: center;
+    user-select: none;
+    font-weight: bold;
+  }
+}
+
+.minus-button {
+  stroke: rgb(255, 100, 100);
+}
+
+.plus-button {
+  stroke: rgb(126, 200, 126);
+}
+
+
+.class-separator {
+  stroke: var(--ft-first);
+  stroke-width: 2;
+  stroke-dasharray: 5,5;
+  stroke-opacity: 0.5;
+}
+
+
+.lq-with-basis-decision-boundary {
+  stroke: var(--ft-first);
+  stroke-width: 5;
+  fill: none;
+}

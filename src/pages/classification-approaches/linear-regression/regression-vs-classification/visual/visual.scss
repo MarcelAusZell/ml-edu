@@ -1,0 +1,28 @@
+.linear-regression-line-visual {
+  stroke: var(--ft-first);
+  stroke-width: 10;
+}
+
+.breathing-point {
+  fill: rgb(63, 173, 0)
+}
+
+.prediction-arrow-new-data-point {
+  stroke: rgb(63, 173, 0);
+  stroke-width: 10;
+
+  .arrow-head {
+    fill: rgb(63, 173, 0);
+    stroke: none;
+    stroke-width: 10;
+  }
+}
+
+.x-label-linear-regression-visual,
+.t-label-linear-regression-visual,
+.x1-label-linear-regression-visual,
+.x2-label-linear-regression-visual {
+  fill: var(--ft-first);
+  fill-opacity: 0.5;
+  font-weight: bold;
+}

@@ -1,0 +1,56 @@
+.univariate-guassian-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  svg {
+    user-select: none;
+  }
+}
+
+.univariate-gaussian-line {
+  stroke: var(--st-first);
+  stroke-width: 5;
+  fill: none;
+}
+
+.setting-container-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+
+  .form-range {
+    width: 200px; 
+    opacity: 0.6;
+    transition: opacity 0.15s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &::-webkit-slider-thumb {
+      background: var(--st-first);
+      cursor: pointer;
+
+      &:active,
+      &:focus {
+        background: var(--st-first);
+      }
+    }
+
+    &::-moz-range-thumb {
+      background: var(--st-first);
+      cursor: pointer;
+    }
+
+    &::-webkit-slider-runnable-track {
+      background: var(--txbg-second);
+    }
+
+    &:focus::-webkit-slider-thumb {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}

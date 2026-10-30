@@ -1,0 +1,14 @@
+.lms-decision-boundary,
+.irls-decision-boundary {
+  stroke: var(--ft-first);
+  stroke-width: 1;
+  fill: none;
+}
+
+.irls-step-text,
+.lms-step-text,
+.irls-error-text,
+.lms-error-text {
+  fill: var(--ft-first);
+  font-weight: bold;
+}

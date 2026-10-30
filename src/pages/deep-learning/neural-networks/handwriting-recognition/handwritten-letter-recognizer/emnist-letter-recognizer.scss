@@ -1,0 +1,22 @@
+.prediction-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  user-select: none;
+}
+
+.maximum-prediction {
+  font-size: 2rem;
+  font-weight: bold;
+  user-select: none;
+  filter: drop-shadow(0 0 5px var(--st-first)) drop-shadow(0 0 10px var(--st-first));
+}
+
+.maximum-prediction-percentage {
+  opacity: 0.3;
+  font-weight: bold;
+  user-select: none;
+}

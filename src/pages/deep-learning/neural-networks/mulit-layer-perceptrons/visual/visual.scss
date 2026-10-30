@@ -1,0 +1,82 @@
+.mlp-input-point {
+  fill: var(--st-first);
+  stroke: var(--ft-first);
+  stroke-width: 4;
+  stroke-opacity: 0.5;
+}
+
+.mlp-input-label {
+  color: var(--st-first);
+}
+
+.mlp-activation-point,
+.mlp-activation-output-point {
+  fill: var(--marking-first);
+  stroke: var(--ft-first);
+  stroke-width: 4;
+  stroke-opacity: 0.5;
+}
+
+.mlp-activation-label,
+.mlp-activation-output-label {
+  color: var(--marking-first);
+}
+
+
+.mlp-hidden-point {
+  fill: var(--sp-first);
+  stroke: var(--ft-first);
+  stroke-width: 4;
+  stroke-opacity: 0.5;
+}
+
+.mlp-hidden-label {
+  color: var(--sp-first);
+}
+
+
+.mlp-output-point {
+  fill: var(--sp-first);
+  stroke: var(--ft-first);
+  stroke-width: 4;
+  stroke-opacity: 0.5;
+}
+
+.mlp-output-label {
+  color: var(--sp-first);
+}
+
+
+.mlp-input-bias,
+.mlp-hidden-bias {
+  fill: gray;
+  stroke: var(--ft-first);
+  stroke-width: 4;
+  stroke-opacity: 0.5;
+}
+
+.mlp-input-hidden-connection,
+.mlp-hidden-output-connection {
+  stroke: var(--ft-first);
+  stroke-width: 4;
+}
+
+.mlp-input-dots,
+.mlp-hidden-dots,
+.mlp-output-dots {
+  fill: var(--ft-first);
+  fill-opacity: 0.5;
+
+}
+
+.non-linear-activation-function-visual {
+  fill: none;
+  stroke: var(--ft-first);
+  stroke-width: 10;
+}
+
+.non-linear-activation-function-text-visual {
+  stroke: none;
+  fill: var(--ft-first);
+  font-weight: bold;
+}

@@ -1,0 +1,32 @@
+.regression-path-visual {
+  stroke: var(--ft-first);
+  stroke-width: 10;
+  fill: none;
+}
+
+.vertical-lines-to-regression-path-visual {
+  stroke: var(--st-first);
+  stroke-width: 5;
+  stroke-dasharray: 10, 10;
+}
+
+.RMSE-text-linear-regression-visual,
+.degree-text-linear-regression-visual,
+.lamda-text-linear-regression-visual {
+  font-size: 25px;
+  font-weight: bold;
+  fill: var(--st-first);
+  fill-opacity: 0.5;
+}
+
+.ground-truth-path {
+  stroke: var(--marking-first);
+  stroke-opacity: 0.3;
+  stroke-width: 10;
+  fill: none;
+}
+
+.data-point-extra-linear-regression-visual {
+  fill: var(--st-first);
+  fill-opacity: 0.3;
+}

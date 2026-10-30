@@ -1,0 +1,35 @@
+.interactive-demo-card {
+  border-radius: 3em;
+  box-shadow: 0px 0px 200px 20px var(--st-fourth);
+  padding-bottom: 2em;
+  padding-top: 2em;
+  background-color: var(--interactive-demo-card-bg);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  user-select: none;
+}
+
+.interactive-demo-description {
+  display: block;
+  text-align: center;
+  font-size: medium;
+  width: 80%;
+  margin: auto;
+  font-weight: bold;
+  color: var(--st-first);
+  opacity: 0.5;
+  border-radius: 1em;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+
+[data-theme="dark"] {
+  --interactive-demo-card-bg: rgb(40, 40, 40);
+}
+
+[data-theme="light"] {
+  --interactive-demo-card-bg: rgb(255, 255, 255);
+}

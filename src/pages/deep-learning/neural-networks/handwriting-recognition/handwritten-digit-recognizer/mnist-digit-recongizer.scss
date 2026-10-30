@@ -1,0 +1,30 @@
+.bar {
+  fill: var(--st-first);
+  fill-opacity: 0.5;
+}
+
+.x-axis {
+  stroke: var(--ft-first);
+  fill: none;
+}
+
+.non-max-value-digit-on-scale {
+  fill: var(--ft-first);
+  font-size: 2px;
+  stroke: none;
+  opacity: 0.4;
+}
+
+.max-value-digit-on-scale {
+  fill: var(--ft-first);
+  font-size: 2px;
+  stroke: none;
+  opacity: 0.8;
+}
+
+
+.x-axis .domain {
+  stroke: var(--ft-first);
+  stroke-width: 0.5px;
+  opacity: 0.4;
+}

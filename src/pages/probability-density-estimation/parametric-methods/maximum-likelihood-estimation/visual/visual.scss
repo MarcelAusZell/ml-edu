@@ -1,0 +1,28 @@
+.media-1-data-points,
+.media-1-data-points-new {
+  fill: var(--st-first);
+  fill-opacity: 0.5;
+  stroke: var(--ft-first);
+}
+
+.media-1-estimation-new-wrong {
+  fill: none;
+  stroke: red;
+  stroke-width: 6;
+}
+
+.media-1-estimation-new-corrected {
+  fill: none;
+  stroke: limegreen;
+  stroke-width: 6;
+}
+
+
+
+
+.latex-label-ml-x1,
+.latex-label-ml-x2,
+.latex-label-ml-comparison,
+.latex-label-ml-new {
+  opacity: 0.5;
+}

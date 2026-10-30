@@ -1,0 +1,52 @@
+.input-circle,
+.output-circle,
+.mapping-input {
+  fill: var(--st-first);
+  stroke: var(--ft-first);
+  stroke-width: 4;
+  stroke-opacity: 0.5;
+}
+
+.connection-line,
+.mapping-line {
+  stroke: var(--ft-first);
+  stroke-width: 4;
+}
+
+.input-circle-bias {
+  fill: gray;
+  stroke: var(--ft-first);
+  stroke-width: 4;
+  stroke-opacity: 0.5;
+}
+
+.perceptron-general-labels {
+  fill: var(--ft-first);
+}
+
+.mapping-rect {
+  stroke: var(--ft-first);
+  stroke-width: 4;
+  fill: var(--st-first);
+  fill-opacity: 0.1;
+}
+
+.dots,
+.input-dots,
+.output-dots {
+  fill: var(--ft-first);
+}
+
+.perceptron-linear-discriminant-class-seperator {
+  stroke: var(--ft-first);
+  stroke-width: 5;
+  fill: none;
+  stroke-dasharray: 20;
+  stroke-opacity: 0.5;
+}
+
+.perceptron-linear-discriminant-decision-boundary {
+  stroke: var(--ft-first);
+  stroke-width: 10;
+  fill: none;
+}

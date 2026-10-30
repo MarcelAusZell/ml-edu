@@ -1,0 +1,28 @@
+.mlp-interactive-node {
+  fill: var(--st-first);
+  stroke: var(--ft-first);
+  stroke-width: 1;
+  stroke-opacity: 0.5;
+}
+
+.mlp-interactive-bias {
+  fill: gray;
+  stroke: var(--ft-first);
+  stroke-width: 1;
+  stroke-opacity: 0.5;
+}
+
+.mlp-interactive-connection {
+  stroke: var(--ft-first);
+  stroke-opacity: 0.25;
+  stroke-width: 1;
+}
+
+.mlp-interactive-setting-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,65 @@
+.gradient-descent-polynomial-interactive-first-order,
+.gradient-descent-polynomial-interactive-second-order {
+  fill: none;
+  stroke: var(--ft-first);
+}
+
+.first-gd-tangent-line {
+  stroke: var(--st-first);
+  stroke-width: 0.75;
+  stroke-opacity: 0.25;
+}
+
+.first-gd-step-line {
+  stroke: var(--st-first);
+  stroke-width: 0.75;
+}
+
+.first-gd-support-step-line {
+  stroke: var(--st-first);
+  stroke-width: 0.5;
+  stroke-dasharray: 1;
+}
+
+.second-gd-parabola {
+  fill: none;
+  stroke: var(--st-first);
+  stroke-opacity: 0.25;
+}
+
+.second-gd-min-point {
+  fill: var(--st-first);
+}
+
+.second-gd-min-line {
+  stroke: var(--st-first);
+  stroke-width: 0.5;
+  stroke-dasharray: 0.5;
+}
+
+.gradient-value-text,
+.step-value-text {
+  fill: var(--ft-first);
+  font-weight: bold;
+}
+
+.setting-container-gradient-descent-comparison {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.gradient-descent-comparison-point {
+  fill: var(--st-first);
+}
+
+.gradient-descent-svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

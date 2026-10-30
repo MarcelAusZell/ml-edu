@@ -1,0 +1,75 @@
+.ml-ai-ds-text {
+  font-size: 3rem;
+  font-weight: bold;
+  opacity: 0.5;
+  fill: white;
+}
+
+.circle-ai {
+  fill: var(--st-first);
+  fill-opacity: 0.5;
+
+}
+
+
+.circle-ai-text {
+  color: var(--st-first);
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+
+.circle-ml {
+  fill: var(--st-first);
+  fill-opacity: 0.75;
+}
+
+.circle-ml-text {
+  color: var(--st-first);
+  opacity: 0.75;
+  font-weight: bold;
+}
+
+.circle-dl {
+  fill: var(--st-first);
+}
+
+.circle-dl-text {
+  color: var(--st-first);
+  font-weight: bold;
+}
+
+.circle-ds {
+  fill: var(--marking-first);
+  opacity: 0.75;
+}
+
+.circle-ds-text {
+  color: var(--marking-first);
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+.background-rect {
+  fill: var(--bg-second);
+  fill-opacity: 0.75;
+}
+
+.number-rect {
+  fill: var(--ft-first);
+}
+
+.arrow-ml-steps-2 {
+  stroke: var(--ft-first);
+  opacity: 0.5;
+}
+
+.ml-steps-2-text {
+  fill: var(--ft-first);
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+#arrowhead {
+  fill: var(--ft-first);
+}

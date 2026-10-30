@@ -1,0 +1,32 @@
+.weight-norm-polyline {
+  stroke: var(--ft-first);
+  stroke-width: 10;
+  fill: none;
+}
+
+.weight-norm-overfitting-label,
+.poly-degree-overfitting-label {
+  fill: var(--ft-first);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.regression-path-drawing-animation-visual,
+.regression-path-animated-visual {
+  stroke: var(--ft-first);
+  stroke-width: 10;
+  fill: none;
+}
+
+.linear-regression-ground-truth-line {
+  stroke: var(--marking-first);
+  stroke-width: 10;
+  stroke-opacity: 0.3;
+  fill: none;
+}
+
+.ridge-regression-label,
+.label-weights,
+.overfitting-chart-label {
+  opacity: 0.5;
+}

@@ -1,0 +1,63 @@
+.likelihood-1,
+.likelihood-x-prior-1,
+.posterior-1 {
+  stroke: orange;
+  stroke-opacity: 0.5;
+}
+
+.likelihood-2,
+.likelihood-x-prior-2,
+.posterior-2 {
+  stroke: steelblue;
+  stroke-opacity: 0.5;
+}
+
+.parameter-description {
+  font-size: 20px;
+  fill: var(--ft-first);
+  fill-opacity: 0.5;
+}
+
+.data-points-parameter-comparison {
+  stroke: var(--ft-first);
+  stroke-width: 2.5;
+}
+
+.parameter-comparison-decision-point {
+  fill: var(--st-first);
+}
+
+.parameter-comparison-decision-boundary {
+  stroke: var(--st-first);
+  stroke-width: 5;
+  stroke-dasharray: 20;
+  stroke-opacity: 0.5;
+}
+
+.parameter-description-logistic-regression {
+  font-size: 20px;
+  fill: var(--st-first);
+}
+
+.decision-boundary-classification-approaches-comparison {
+  stroke: var(--ft-first);
+  stroke-width: 7.5;
+}
+
+.error-comparison {
+  stroke: var(--ft-first);
+  stroke-width: 7.5;
+  fill: none;
+}
+
+.highlighting-rect {
+  fill: var(--st-first);
+  stroke-dasharray: 5, 5;
+  stroke: var(--ft-first);
+  stroke-width: 2;
+  fill-opacity: 0.25;
+}
+
+.logistic-regression-comparison-axis-label {
+  opacity: 0.5;
+}

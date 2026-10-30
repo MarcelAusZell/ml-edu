@@ -1,0 +1,32 @@
+.least-squares-activation-function {
+  stroke: var(--ft-first);
+  stroke-width: 4;
+  fill: none;
+}
+
+.highlight-rect {
+  fill: var(--st-first);
+  fill-opacity: 0.3;
+  stroke: var(--ft-first);
+  stroke-width: 2;
+  stroke-dasharray: 5, 5;
+}
+
+.least-squares-tanh-error-contribution {
+  fill: none;
+  stroke: var(--st-first);
+  stroke-width: 6;
+}
+
+.other-error-contribution-functions {
+  fill: none;
+  stroke: var(--st-first);
+  stroke-width: 6;
+  stroke-opacity: 0.1;
+}
+
+.least-square-activated-comparison-label,
+.least-square-activated-label,
+.error-contribution-axis-label-gls {
+  opacity: 0.5;
+}

@@ -1,0 +1,39 @@
+.page-container {
+  color: var(--ft-first);
+}
+
+.txt-1 {
+  color: var(--st-first);
+}
+
+.txt-2 {
+  color: var(--marking-first);
+}
+
+.txt-3 {
+  color: var(--sp-first);
+}
+
+.txt-4 {
+  color: var(--sp-second);
+}
+
+.emphasized-text {
+  font-weight: bold;
+  color: var(--emphasized-text-color);
+}
+
+.note-text {
+  font-size: 0.8rem;
+  opacity: 0.3;
+  display: inline-block;
+  line-height: 1rem;
+  margin-top: 0.25rem;
+}
+
+.centered-text-container {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+

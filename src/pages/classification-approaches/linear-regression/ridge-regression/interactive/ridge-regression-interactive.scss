@@ -1,0 +1,41 @@
+.ridge-regression-line {
+  stroke: var(--ft-first);
+  stroke-width: 7;
+  fill: none;
+}
+
+.linear-regression-point {
+  fill: var(--st-first);
+}
+
+.vertical-line-to-linear-regression-line {
+  stroke: var(--st-first);
+  stroke-width: 2;
+  stroke-dasharray: 5;
+}
+
+.plus-minus-toggler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  svg {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease-in-out; 
+    &:hover {
+      transform: scale(1.5); 
+      cursor: pointer;
+    }
+    .minus-button:hover {
+      stroke: red;
+    }
+    .plus-button:hover {
+      stroke: green;
+    }
+}
+  span {
+    text-align: center;
+    user-select: none;
+  }
+}

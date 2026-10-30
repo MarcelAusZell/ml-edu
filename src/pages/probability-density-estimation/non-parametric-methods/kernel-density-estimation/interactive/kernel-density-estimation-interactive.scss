@@ -1,0 +1,76 @@
+.kernel-density-estimation-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  svg {
+    user-select: none;
+    cursor: cell;
+  }
+}
+
+.kde-data-point {
+  fill: var(--st-first);
+  fill-opacity: 0.5;
+  stroke: var(--ft-first);
+  stroke-width: 2;
+}
+
+
+.kernel-density-estimation {
+  fill: none;
+  stroke: var(--st-first);
+  stroke-width: 4;
+}
+
+.kernel-density-estimation-line {
+  fill: none;
+  stroke: var(--st-first);
+  stroke-width: 4;
+}
+
+.interactive-slider-container {
+  span {
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .form-range {
+    opacity: 0.6;
+    transition: opacity 0.15s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &::-webkit-slider-thumb {
+      background: var(--st-first);
+      cursor: pointer;
+      &:active,
+      &:focus {
+        background: var(--st-first);
+      }
+    }
+
+    &::-moz-range-thumb {
+      background: var(--st-first);
+      cursor: pointer;
+    }
+
+    &::-webkit-slider-runnable-track {
+      background: var(--bg-first);
+    }
+
+    &:focus::-webkit-slider-thumb {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+
+.setting-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

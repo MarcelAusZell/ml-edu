@@ -1,0 +1,70 @@
+[data-theme="dark"] {
+  --bg-first: rgb(33, 33, 33);
+  --bg-second: rgb(60, 60, 60);
+  --bg-third: rgb(50, 50, 50);
+  --bg-fourth: rgb(40, 40, 40);
+  --bg-fifth: rgb(200, 200, 200);
+
+  --ft-first: rgb(255, 255, 255);
+  --ft-second: rgb(240, 240, 240);
+  --ft-third: rgb(245, 245, 245);
+  --ft-fourth: rgb(100, 100, 100);
+  --ft-fifth: rgb(26, 26, 26);
+
+  --st-first: rgb(255, 217, 0);
+  --st-second: rgb(255, 217, 0, 0.75);
+  --st-third: rgb(255, 217, 0, 0.5);
+  --st-fourth: rgb(255, 217, 0, 0.25);
+  --st-fifth: rgb(255, 217, 0, 0.1);
+
+  --txbg-first: rgb(40, 40, 40);
+  --txbg-second: rgb(60, 60, 60);
+  --txbg-third: rgb(33, 33, 33);
+
+  --sp-first: rgb(125, 164, 167);
+  --sp-second: rgb(224, 230, 154);
+  --sp-third: rgb(253, 212, 143);
+  --sp-fourth: rgb(168, 133, 158);
+  --sp-fifth: rgb(227, 0, 102);
+
+  --marking-first: rgb(255, 99, 71);
+  --marking-second: rgb(189, 205, 0);
+
+  --emphasized-text-color: springgreen;
+}
+
+[data-theme="light"] {
+  --bg-first: rgb(240, 240, 240);
+  --bg-second: rgb(255, 255, 255);
+  --bg-third: rgb(245, 245, 245);
+  --bg-fourth: rgb(100, 100, 100);
+  --bg-fifth: rgb(26, 26, 26);
+
+  --ft-first: rgb(33, 33, 33);
+  --ft-second: rgb(60, 60, 60);
+  --ft-third: rgb(50, 50, 50);
+  --ft-fourth: rgb(40, 40, 40);
+  --ft-fifth: rgb(200, 200, 200);
+
+  --st-first: rgb(255, 99, 71);
+  --st-second: rgb(255, 99, 71, 0.75);
+  --st-third: rgb(255, 99, 71, 0.5);
+  --st-fourth: rgb(255, 99, 71, 0.25);
+  --st-fifth: rgb(255, 99, 71, 0.1);
+
+  --txbg-first: rgb(245, 245, 245);
+  --txbg-second: rgb(240, 240, 240);
+  --txbg-third: rgb(255, 255, 255);
+
+  --sp-first: rgb(45, 127, 131);
+  --sp-second: rgb(208, 217, 92);
+  --sp-third: rgb(250, 190, 80);
+  --sp-fourth: rgb(131, 78, 117);
+  --sp-fifth: rgb(233, 96, 136);
+
+  --marking-first: rgb(255, 217, 0);
+  --marking-second: rgb(87, 171, 39);
+
+  --emphasized-text-color: limegreen;
+}
+

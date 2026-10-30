@@ -1,0 +1,22 @@
+.histogram-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  svg {
+    user-select: none;
+    cursor: cell;
+  }
+}
+
+.histogram-bar {
+  fill: var(--st-first);
+  fill-opacity: 0.5;
+}
+
+.histogram-data-point {
+  fill: var(--st-first);
+  fill-opacity: 0.5;
+  stroke: var(--ft-first);
+  stroke-width: 2;
+}
+

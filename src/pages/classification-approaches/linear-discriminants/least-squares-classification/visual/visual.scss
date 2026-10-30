@@ -1,0 +1,75 @@
+
+.least-squares-decision-boundary {
+  stroke: var(--ft-first);
+  stroke-width: 4;
+}
+
+.least-squares-error-contribution {
+  fill: none;
+  stroke: var(--st-first);
+  stroke-width: 6;
+}
+
+.error-contribution-x-axis-label,
+.error-contribution-y-axis-label {
+  opacity: 0.9;
+}
+
+.correct-classification-label,
+.correct-classification-text-label {
+  color: var(--correct);
+}
+
+.incorrect-classification-label,
+.incorrect-classification-text-label {
+  color: var(--incorrect);
+}
+
+[data-theme="dark"] {
+  --correct: rgb(0, 190, 0);
+  --incorrect: rgb(255, 0, 0);
+}
+
+[data-theme="light"] {
+  --correct: #008000;
+  --incorrect: rgb(255, 51, 51);
+}
+
+.positive-confidence-arrow,
+.ideal-classification-arrow {
+  fill: var(--correct);
+  stroke: var(--correct);
+  stroke-width: 4;
+}
+
+.negative-confidence-arrow {
+  fill: var(--incorrect);
+  stroke: var(--incorrect);
+  stroke-width: 4;
+}
+
+.arrow-label {
+  fill: var(--ft-first);
+  stroke: var(--ft-first);
+  stroke-width: 0.5;
+  opacity: 0.6;
+}
+
+.ideal-miss-classification-error {
+  fill: none;
+  fill-opacity: 0.1;
+  stroke: var(--marking-first);
+  stroke-width: 6;
+}
+
+.highlight-lease-squares-error {
+  fill: var(--st-first);
+  fill-opacity: 0.25;
+  stroke: var(--ft-first);
+  stroke-dasharray: 5, 5;
+  stroke-width: 2;
+}
+
+.error-contribution-axis-label, .axis-label-least-square {
+  opacity: 0.5;
+}

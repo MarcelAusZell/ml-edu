@@ -1,0 +1,47 @@
+.mlp-bias {
+  fill: gray;
+  stroke: var(--ft-first);
+  stroke-width: 1;
+  stroke-opacity: 0.5;
+}
+
+.mlp-node {
+  fill: var(--st-first);
+  stroke: var(--ft-first);
+  stroke-width: 1;
+  stroke-opacity: 0.5;
+}
+
+.error-function-step,
+.calculate-gradients-step,
+.update-weights-step {
+  fill: var(--ft-first);
+  font-weight: bold;
+}
+
+.mlp-bias-error-comparison {
+  fill: gray;
+  stroke: var(--ft-first);
+  stroke-width: 3;
+  stroke-opacity: 0.5;
+}
+
+
+.mlp-node-error-comparison {
+  fill: var(--st-first);
+  stroke: var(--ft-first);
+  stroke-width: 3;
+  stroke-opacity: 0.5;
+}
+
+.mlp-line-error-comparison {
+  stroke: var(--ft-first);
+  stroke-width: 3;
+  stroke-opacity: 0.5;
+}
+
+.mlp-dots,
+.mlp-dots-multi-classification {
+  fill: var(--ft-first);
+  fill-opacity: 0.35;
+}

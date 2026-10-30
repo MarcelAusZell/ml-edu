@@ -1,0 +1,21 @@
+.classification-approaches-data-point-class-0 {
+  fill: steelblue;
+}
+
+.classification-approaches-data-point-class-1 {
+  fill: orange;
+}
+
+.decision-boundary-logistic-regression,
+.decision-boundary-least-squares-tanh,
+.decision-boundary-least-squares {
+  stroke: var(--ft-first);
+  stroke-width: 5;
+}
+
+.classification-approaches-description-text {
+  font-size: 15px;
+  font-weight: bold;
+  fill: var(--ft-first);
+  fill-opacity: 0.3;
+}

@@ -1,0 +1,65 @@
+.media-1 {
+  &-class-a-points {
+    fill: var(--st-first);
+  }
+
+  &-class-b-points {
+    fill: var(--marking-first);
+  }
+
+  &-probability-density-estimation-class-a {
+    fill: none;
+    stroke: var(--st-first);
+    stroke-width: 7;
+  }
+
+
+  &-probability-density-estimation-class-b {
+    fill: none;
+    stroke: var(--marking-first);
+    stroke-width: 7;
+  }
+}
+
+.media-1-posterior-a {
+  stroke: var(--st-first);
+  stroke-width: 7;
+  fill: none;
+}
+.media-1-posterior-b {
+  stroke: var(--marking-first);
+  stroke-width: 7;
+  fill: none
+}
+
+
+
+.media-1-likelihood-a-label, .media-1-likelihood-prior-a-label, .media-1-posterior-a-label {
+  color: var(--st-first);
+}
+
+.media-1-likelihood-b-label, .media-1-likelihood-prior-b-label, .media-1-posterior-b-label {
+  color: var(--marking-first);
+}
+
+.media-1-threshold {
+  stroke: silver;
+  stroke-width: 3;
+  fill: none
+}
+
+.media-1-arrow-left, .media-1-decide-for-a-label {
+  stroke: var(--st-first);
+  fill: var(--st-first);
+  stroke-width: 2;
+  color: var(--st-first)
+}
+
+.media-1-arrow-right, .media-1-decide-for-b-label {
+  stroke: var(--marking-first);
+  fill: var(--marking-first);
+  stroke-width: 2;
+  color: var(--marking-first)
+}
+
+

@@ -1,0 +1,43 @@
+.class-separator-polynomial-basis-function {
+  stroke: var(--ft-first);
+  stroke-width: 7;
+  stroke-dasharray: 40, 40;
+  stroke-opacity: 0.5;
+}
+
+.lq-poly-basis-decision-boundary {
+  stroke: var(--ft-first);
+  stroke-width: 10;
+  fill: none;
+}
+
+.lq-poly-basis-2D-decision-boundary {
+  stroke: var(--ft-first);
+  stroke-width: 10;
+  fill: none;
+}
+
+.axis-label-xor {
+  fill: var(--ft-first);
+}
+
+.linear-decision-boundary,
+.nonlinear-decision-boundary {
+  stroke: var(--ft-first);
+  stroke-width: 10;
+  fill: none;
+}
+
+.y-axis-line-animated {
+  stroke: var(--ft-first);
+  stroke-width: 5;
+  opacity: 0.5;
+}
+
+.latex-xor-axis-label,
+.latex-2d-axis-label,
+.latex-1d-axis-label,
+.latex-basis-1d-label,
+.latex-basis-2d-label {
+  opacity: 0.5;
+}

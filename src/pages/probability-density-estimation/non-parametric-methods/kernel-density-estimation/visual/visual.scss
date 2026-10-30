@@ -1,0 +1,50 @@
+.kde-visual-data-point {
+  fill: var(--st-first);
+  fill-opacity: 0.5;
+  stroke: var(--ft-first);
+  stroke-width: 2;
+}
+
+.kde-visual-gaussian-path {
+  fill: none;
+  stroke: var(--st-first);
+  stroke-width: 6;
+}
+.visual-text-label {
+  fill: var(--ft-first);
+}
+
+.kde-visual-vertical-line {
+  stroke: var(--sp-first);
+  stroke-width: 8;
+}
+
+.kde-visual-point-on-kernel {
+  fill: var(--sp-first);
+  fill-opacity: 0.8;
+  stroke: var(--ft-first);
+  stroke-width: 5;
+}
+
+.kde-visual-point-estimate {
+  fill: var(--marking-first);
+  stroke: var(--marking-first);
+  stroke-width: 5;
+}
+
+.kde-visual-point-on-kernel-animated {
+  fill: var(--sp-first);
+  fill-opacity: 0.8;
+  stroke: var(--ft-first);
+  stroke-width: 5;
+}
+
+.kde-visual-point-estimate-animated {
+  fill: var(--marking-first);
+}
+
+.kde-visual-kde-path {
+  fill: none;
+  stroke: var(--marking-first);
+  stroke-width: 8;
+}
