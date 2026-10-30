@@ -1,5 +1,4 @@
 name: Deploy to GitHub Pages
-
 on:
   push:
     branches: [main]
@@ -29,6 +28,8 @@ jobs:
         run: npm ci
       - name: Build site
         run: npm run build
+        env:
+          CI: false
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
